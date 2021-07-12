@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  12 JUL 2021 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  13 JUL 2021 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,57 +1085,74 @@ Package: ocgbase 2016/03/11 v0.6 support package for ocgx2.sty
 \@anim@lineno=\count323
 \@anim@curfield=\count324
 \@anim@@resizeflags=\count325
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks57
+\verbatim@line=\toks58
+\verbatim@in@stream=\read4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count326
+\FV@InFile=\read5
+\FV@TabBox=\box76
+\c@FancyVerbLine=\count327
+\FV@StepNumber=\count328
+\FV@OutFile=\write6
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 81.
 
-(./MAIN.aux (./INTRO.aux))
+(./MAIN.aux (./INTRO.aux) (./PROGRAMMING.aux))
 \openout1 = `MAIN.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 139.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 141.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1190,8 +1207,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring OFF on input line 139.
+\AtBeginShipoutBox=\box77
+Package hyperref Info: Link coloring OFF on input line 141.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1199,15 +1216,15 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count326
+\c@section@level=\count329
 )
-LaTeX Info: Redefining \ref on input line 139.
-LaTeX Info: Redefining \pageref on input line 139.
-LaTeX Info: Redefining \nameref on input line 139.
+LaTeX Info: Redefining \ref on input line 141.
+LaTeX Info: Redefining \pageref on input line 141.
+LaTeX Info: Redefining \nameref on input line 141.
 
 (./MAIN.out) (./MAIN.out)
-\@outlinefile=\write6
-\openout6 = `MAIN.out'.
+\@outlinefile=\write7
+\openout7 = `MAIN.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
@@ -1234,7 +1251,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 139.
+LaTeX Info: Redefining \includegraphics on input line 141.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
@@ -1245,52 +1262,52 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 ) (./MAIN.nav)
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 139.
-LaTeX Font Info:    Try loading font information for U+msa on input line 155.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
+LaTeX Font Info:    Try loading font information for U+msa on input line 157.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 155.
+LaTeX Font Info:    Try loading font information for U+msb on input line 157.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./logos/ASP_Hub_COL_black.png, id=14, 557.4426pt x 156.1032pt>
+<./logos/ASP_Hub_COL_black.png, id=22, 557.4426pt x 156.1032pt>
 File: ./logos/ASP_Hub_COL_black.png Graphic file (type png)
 
 <use ./logos/ASP_Hub_COL_black.png>
-Package pdftex.def Info: ./logos/ASP_Hub_COL_black.png used on input line 155.
+Package pdftex.def Info: ./logos/ASP_Hub_COL_black.png used on input line 157.
 (pdftex.def)             Requested size: 101.6027pt x 28.45274pt.
 
-<./logos/VUW-logo-new.jpg, id=16, 401.5pt x 401.5pt>
+<./logos/VUW-logo-new.jpg, id=24, 401.5pt x 401.5pt>
 File: ./logos/VUW-logo-new.jpg Graphic file (type jpg)
 
 <use ./logos/VUW-logo-new.jpg>
-Package pdftex.def Info: ./logos/VUW-logo-new.jpg used on input line 155.
+Package pdftex.def Info: ./logos/VUW-logo-new.jpg used on input line 157.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 
-<./logos/mbie-logo.png, id=17, 664.4825pt x 194.7275pt>
+<./logos/mbie-logo.png, id=25, 664.4825pt x 194.7275pt>
 File: ./logos/mbie-logo.png Graphic file (type png)
 
 <use ./logos/mbie-logo.png>
-Package pdftex.def Info: ./logos/mbie-logo.png used on input line 155.
+Package pdftex.def Info: ./logos/mbie-logo.png used on input line 157.
 (pdftex.def)             Requested size: 97.08258pt x 28.45274pt.
 
-<./logos/GNS_logo.jpg, id=18, 819.06pt x 1373.13pt>
+<./logos/GNS_logo.jpg, id=26, 819.06pt x 1373.13pt>
 File: ./logos/GNS_logo.jpg Graphic file (type jpg)
  <use ./logos/GNS_logo.jpg>
-Package pdftex.def Info: ./logos/GNS_logo.jpg used on input line 155.
+Package pdftex.def Info: ./logos/GNS_logo.jpg used on input line 157.
 (pdftex.def)             Requested size: 16.95955pt x 28.45274pt.
 
-<./logos/niwa-logo.png, id=19, 48.26044pt x 17.61505pt>
+<./logos/niwa-logo.png, id=27, 48.26044pt x 17.61505pt>
 File: ./logos/niwa-logo.png Graphic file (type png)
 
 <use ./logos/niwa-logo.png>
-Package pdftex.def Info: ./logos/niwa-logo.png used on input line 155.
+Package pdftex.def Info: ./logos/niwa-logo.png used on input line 157.
 (pdftex.def)             Requested size: 77.95981pt x 28.45274pt.
 
-Overfull \hbox (24.13943pt too wide) in paragraph at lines 155--155
+Overfull \hbox (24.13943pt too wide) in paragraph at lines 157--157
  []|  []|  []|  []|  []|  [] 
  []
 
@@ -1298,11 +1315,11 @@ Overfull \hbox (24.13943pt too wide) in paragraph at lines 155--155
 Overfull \vbox (27.78297pt too high) has occurred while \output is active []
 
 
-<./images/antarctic_4_tw.jpg, id=20, 1806.75pt x 1201.48875pt>
+<./images/antarctic_4_tw.jpg, id=28, 1806.75pt x 1201.48875pt>
 File: ./images/antarctic_4_tw.jpg Graphic file (type jpg)
 
 <use ./images/antarctic_4_tw.jpg>
-Package pdftex.def Info: ./images/antarctic_4_tw.jpg used on input line 155.
+Package pdftex.def Info: ./images/antarctic_4_tw.jpg used on input line 157.
 (pdftex.def)             Requested size: 364.18318pt x 273.14662pt.
  [1
 
@@ -1313,34 +1330,86 @@ o.png> <./logos/GNS_logo.jpg> <./logos/niwa-logo.png>]
 
  (./INTRO.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
 
-Overfull \hbox (13.23766pt too wide) in paragraph at lines 48--48
+Overfull \hbox (13.23766pt too wide) in paragraph at lines 41--41
 [][]  
  []
 
 
-Overfull \hbox (13.23766pt too wide) in paragraph at lines 48--48
+Overfull \hbox (13.23766pt too wide) in paragraph at lines 41--41
 [][]  
  []
 
 
-Overfull \vbox (5.30634pt too high) detected at line 48
+Overfull \vbox (5.30634pt too high) detected at line 41
  []
 
-Package atenddvi Info: Last page = 2.
 [2
 
 
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 65.
+ [3
+
 ])
-\tf@nav=\write7
-\openout7 = `MAIN.nav'.
+\openout2 = `PROGRAMMING.aux'.
 
-\tf@toc=\write8
-\openout8 = `MAIN.toc'.
+ (./PROGRAMMING.tex
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 27.
 
-\tf@snm=\write9
-\openout9 = `MAIN.snm'.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \hbox (badness 3977) in paragraph at lines 27--27
+[]$[]$\T1/ptm/m/n/8 i$[]$t di-rec-tory con-tents (in long for-mat,
+ []
+
+
+Overfull \hbox (6.01543pt too wide) in paragraph at lines 27--27
+[][]| 
+ []
+
+
+Overfull \hbox (13.23767pt too wide) in paragraph at lines 27--27
+[][]  
+ []
+
+
+Overfull \hbox (1.21542pt too wide) in paragraph at lines 27--27
+[][]| 
+ []
+
+
+Overfull \hbox (13.23767pt too wide) in paragraph at lines 27--27
+[][]  
+ []
+
+
+Overfull \hbox (1.21542pt too wide) in paragraph at lines 27--27
+[][]| 
+ []
+
+
+Overfull \hbox (13.23767pt too wide) in paragraph at lines 27--27
+[][]  
+ []
+
+Package atenddvi Info: Last page = 4.
+[4
+
+
+
+])
+\tf@nav=\write8
+\openout8 = `MAIN.nav'.
+
+\tf@toc=\write9
+\openout9 = `MAIN.toc'.
+
+\tf@snm=\write10
+\openout10 = `MAIN.snm'.
 
 
 
@@ -1349,33 +1418,36 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 171.
-(./MAIN.aux (./INTRO.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 174.
+(./MAIN.aux (./INTRO.aux) (./PROGRAMMING.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
 Package rerunfilecheck Info: File `MAIN.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
+(rerunfilecheck)             Checksum: 62BA4D1039838EBA0E1FAB26FF38FB29;102.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
  ) 
 Here is how much of TeX's memory you used:
- 28346 strings out of 493029
- 533348 string characters out of 6136233
- 645489 words of memory out of 5000000
- 31322 multiletter control sequences out of 15000+600000
- 26895 words of font info for 45 fonts, out of 8000000 for 9000
+ 28895 strings out of 493029
+ 543172 string characters out of 6136233
+ 656400 words of memory out of 5000000
+ 31842 multiletter control sequences out of 15000+600000
+ 35854 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,65p,10405b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,65p,10405b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
-r8a.pfb>
-Output written on MAIN.pdf (2 pages, 586877 bytes).
+1/public/amsfonts/symbols/msam5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MAIN.pdf (4 pages, 627118 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
