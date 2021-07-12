@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  13 JUL 2021 09:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  13 JUL 2021 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,43 +1357,55 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
 \openout2 = `PROGRAMMING.aux'.
 
  (./PROGRAMMING.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 27.
+Overfull \hbox (12.43625pt too wide) in paragraph at lines 35--35
+[]\T1/ptm/b/n/8 command| 
+ []
 
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 35.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 3977) in paragraph at lines 27--27
-[]$[]$\T1/ptm/m/n/8 i$[]$t di-rec-tory con-tents (in long for-mat,
- []
-
-
-Overfull \hbox (6.01543pt too wide) in paragraph at lines 27--27
+Overfull \hbox (2.08359pt too wide) in paragraph at lines 35--35
 [][]| 
  []
 
 
-Overfull \hbox (13.23767pt too wide) in paragraph at lines 27--27
+Overfull \hbox (20.35085pt too wide) in paragraph at lines 35--35
 [][]  
  []
 
 
-Overfull \hbox (1.21542pt too wide) in paragraph at lines 27--27
-[][]| 
+Underfull \hbox (badness 2376) in paragraph at lines 35--35
+[]\T1/ptm/m/n/8 Find out what your cur-rent
  []
 
 
-Overfull \hbox (13.23767pt too wide) in paragraph at lines 27--27
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]\T1/ptm/m/n/8 print fields 2 & 3 from
+ []
+
+
+Overfull \hbox (20.35085pt too wide) in paragraph at lines 35--35
 [][]  
  []
 
 
-Overfull \hbox (1.21542pt too wide) in paragraph at lines 27--27
-[][]| 
+Overfull \hbox (6.66026pt too wide) in paragraph at lines 35--35
+[]\T1/ptm/b/n/8 package| 
  []
 
 
-Overfull \hbox (13.23767pt too wide) in paragraph at lines 27--27
+Overfull \hbox (4.31631pt too wide) in paragraph at lines 35--35
+[]\T1/ptm/m/n/8 pdflatex| 
+ []
+
+
+Overfull \hbox (20.35085pt too wide) in paragraph at lines 35--35
 [][]  
+ []
+
+
+Overfull \vbox (8.35226pt too high) detected at line 35
  []
 
 Package atenddvi Info: Last page = 4.
@@ -1418,14 +1430,14 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 174.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 175.
 (./MAIN.aux (./INTRO.aux) (./PROGRAMMING.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `MAIN.out' has not changed.
 (rerunfilecheck)             Checksum: 62BA4D1039838EBA0E1FAB26FF38FB29;102.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
  28895 strings out of 493029
@@ -1444,7 +1456,7 @@ urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MAIN.pdf (4 pages, 627118 bytes).
+Output written on MAIN.pdf (4 pages, 628672 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream

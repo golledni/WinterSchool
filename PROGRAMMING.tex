@@ -5,22 +5,30 @@
 \begin{frame}{\insertsectionnumber{ |} Command-line basics (*nix)}
 
 \hspace*{-0.5cm}\textbf{Basic commands} \\
-\begin{tabular}{p{1.5cm} p{3.5cm} p{5cm}}
-ls & \Verb+ ls -ltrh + & \underline{l}i\underline{s}t directory contents (in long format, newest last) \\
-cd & \Verb+ cd ../mydir/mysubdir + & \underline{c}hange \underline{d}irectory (up one level, down two) \\
-
+\vspace*{0.25cm}\begin{tabular}{p{0.75cm} p{6cm} p{3.5cm}}
+\textbf{command} & \textbf{~~example} & \textbf{description} \\
+ls & \Verb+ ls -ltrh + & \ul{l}i\ul{s}t directory contents (in long format, newest last) \\
+cd & \Verb+ cd ../mydir/mysubdir + & \ul{c}hange \ul{d}irectory (up one level, down two) \\
+rm & \Verb+ rm delete-this.txt and-all-these.* + & \ul{r}e\ul{m}ove file(s) \\
+mv & \Verb+ mv rename-this.txt to-this.txt + & \ul{m}o\ul{v}e (rename) file(s) \\
+mkdir & \Verb+ mkdir ./new-directory + & \ul{m}a\ul{k}e a new (empty) \ul{dir}ectory  \\
+cp & \Verb+ cp this.txt ./new-dir/to-this.txt + & \ul{c}o\ul{p}y file (possibly to new location) \\
 \end{tabular}
 
 
-\hspace*{-0.5cm}\textbf{Linux c-line tools} \\
-\begin{tabular}{p{1.5cm} p{3.5cm} p{5cm}}
-sed & \Verb+ sed -e 's/a/b/g'+ & \underline{s}tream \underline{ed}itor, swap `a' for `b' \\
+\vspace*{0.5cm}\hspace*{-0.5cm}\textbf{Linux c-line tools} \\
+\begin{tabular}{p{0.75cm} p{6cm} p{3.5cm}}
+\textbf{tool} & \textbf{~~example} & \textbf{description} \\
+pwd & \Verb+ pwd + & Find out what your current \ul{p}ersonal \ul{w}orking \ul{d}irectory is \\
+sed & \Verb+ sed -e 's/a/b/g'+ & \ul{s}tream \ul{ed}itor, swap `a' for `b' \\
 awk & \Verb+ awk '\{print \$2, \$3\}'+ & print fields 2 \& 3 from file/stream \\
 \end{tabular}
 
-\hspace*{-0.5cm}\textbf{Other packages \& utilities} \\
-\begin{tabular}{p{1.5cm} p{3.5cm} p{5cm}}
+\vspace*{0.5cm}\hspace*{-0.5cm}\textbf{Other packages \& utilities} \\
+\begin{tabular}{p{0.75cm} p{6cm} p{3.5cm}}
+\textbf{package} & \textbf{~~example} & \textbf{description} \\
 pdflatex & \Verb+ pdflatex myfile.tex + & compile \LaTeX document \\
+git & \Verb+ git clone golledni/WinterSchool + & Make a local copy of a github repository \\
 \end{tabular}
 
 
