@@ -1,0 +1,189 @@
+\documentclass[8pt,leqno]{beamer}
+
+%%%%%%%%%%%%%%%%%%%%%%%% SET UP ENVIRONMENT ETC %%%%%%%%%%%%%%%%%%%%%%
+
+\mode<presentation>
+{
+  \usetheme[]{} %Boadilla
+% or ...
+%	\useoutertheme[height=0pt,width=35pt]{sidebar}
+%   \setbeamercolor{sidebar}{bg=gray!95!green}
+
+  \setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+}
+
+\setbeamertemplate{navigation symbols}{}
+%\usefonttheme[onlymath]{serif}
+%\usefonttheme{professionalfonts}%[stillsansseriflarge]
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{fancybox}
+%\usepackage{avant}
+%\usepackage{cmbright}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome}
+\usepackage{soul}
+\setbeamercovered{dynamic}
+\setbeamercolor{normal text}{fg=red!50!green!50!blue}
+\setbeamercolor{alerted text}{fg=red!20!green!20!blue}
+
+
+\setbeamercolor{structure}{fg=red!50!green!50!blue}
+
+%\usepackage{fixpauseincludegraphics}
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+%\usepackage{fontspec}
+%\setmainfont{Helvetica Neue}
+\usepackage{times}
+\usepackage{fontawesome}  % this package provides the Twitter logo, if needed
+%\usecolortheme[RGB={100,100,150}]{structure}
+%\setbeamertemplate{blocks}[rounded][shadow=true]
+%\setbeamertemplate{background canvas}[vertical shading][bottom=black!10,top=white!100]
+\usepackage{setspace}
+%\usepackage{multimedia}
+\usepackage{movie15}
+\usepackage{pdfpages}
+\usepackage{animate}
+\usepackage{ifthen}
+\usepackage{graphicx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% SET UP TITLE / AUTHORS ETC %%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace*{0.75cm}
+\title[\textcolor{gray}{\textbf{Running title here}}] 
+{\textcolor{white}{\Huge{Main title here}}}
+
+%
+%\subtitle
+%{} % (optional)
+
+\vspace*{-0.125cm}
+\author[\textcolor{gray}{\faTwitter \hspace*{0.15cm} @nick\_golledge}] 
+{\textcolor{white}{\large{\faTwitter \hspace*{0.15cm} @nick\_golledge\inst{1}}\\\vspace*{0.0cm}
+%
+%\vspace*{0.125cm}\textcolor{white}{
+%Alex Gossart\inst{1},\\
+%Liz~Keller\inst{1,2},\\
+%Alena Malyarenko\inst{3},\\
+%Angela Bahamondes-Dominguez\inst{3},\\
+%Mario Krapp\inst{2},\\
+%Dan~Lowry\inst{2},\\
+%Stefan~Jendersie\inst{1}\\
+%
+%
+}}
+
+
+\normalsize
+\institute[\textcolor{gray}{VUW}] % (optional, but mostly needed)
+{\textcolor{white}{
+\inst{{1}}{Antarctic Research Centre, Victoria University of Wellington, New Zealand}\\
+%\inst{{2}}{GNS Science, Lower Hutt, New Zealand}\\
+%\inst{{3}}{NIWA, Wellington, New Zealand}\\
+}
+
+
+  \vspace*{1.5cm}
+%  
+% 
+%  \textcolor{white}{\inst{{2}}%
+%  {GNS Science, Lower Hutt, New Zealand }}\\
+%  \vspace*{0cm}
+
+}
+ 
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[\textcolor{gray}{Event name here}] % (optional)
+{\\\vspace*{0.5cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% ADD SOME LOGOS %%%%%%%%%%%%%%%%%%%%%%
+
+
+%\begin{columns}
+%\column{2cm}
+%\column{7cm}
+\hspace*{-0.9cm} \includegraphics[height=1cm]{./logos/ASP_Hub_COL_black.png}\hspace*{0.2cm} \includegraphics[height=1cm]{./logos/VUW-logo-new.jpg}
+\hspace*{0.0cm} \includegraphics[height=1cm]{./logos/mbie-logo.png} 
+\hspace*{0.0cm} \includegraphics[height=1cm]{./logos/GNS_logo.jpg}
+\hspace*{0.2cm} \includegraphics[height=1cm]{./logos/niwa-logo.png}
+%\end{columns}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%% SET UP TEMPLATE HEAD / FOOT %%%%%%%%%%%%%%%%%%%%%%
+
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor~~\beamer@ifempty{\insertshortinstitute}{}{\insertshortinstitute}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+
+\begin{document}
+
+\newcommand{\movies}{off}
+
+
+\setbeamercolor{background canvas}{bg=white}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% SET BACKGROUND FOR TITLE SLIDE %%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamertemplate{background}{
+\includegraphics[width=\paperwidth,height=\paperheight]{./images/antarctic_4_tw.jpg}
+}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% CLEAR BACKGROUND FOR MAIN SLIDES %%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamertemplate{background}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%% MAIN CONTENT %%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\textbf{1 |} Slide 1}
+
+\begin{columns}
+
+\column[c]{5cm}
+%\centering\includegraphics[width=5cm]{} \\
+\centering\tiny{Citation, date}
+
+
+\column[c]{5cm}
+%\centering\includegraphics[width=5cm]{} \\
+\centering\tiny{Citation, date}
+
+
+\end{columns}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% END CONTENT %%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
