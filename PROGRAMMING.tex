@@ -36,27 +36,73 @@ git & \Verb+ git clone golledni/WinterSchool + & Make a local copy of a github r
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-%\begin{frame}{\insertsectionnumber{ |} Aims, Methods, \& Scope}
+\begin{frame}[fragile]{\insertsectionnumber{ |} Simple (bash) shell scripting}
+
+
+
+\begin{columns}
+\column[c]{7.5cm}
+\begin{itemize}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\item We can combine many simple commands, tools, and utilities to achieve more complex tasks
+}
+\end{beamerboxesrounded}
+\end{itemize}
+\end{columns}
+
+\vspace*{1cm}\begin{lstlisting}
+pwd
+/home/golledni/MEGA/Work/AntSciPlat/WinterSchool
+
+pwd | sed -e `s/\// /g' | awk `{print "Today my",$1,"is the",$NF}'
+Today my home is the WinterSchool
+\end{lstlisting}
+
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\vspace*{0.5cm}
+}
+\end{beamerboxesrounded}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{\insertsectionnumber{ |} Simple (bash) shell scripting}
+
+\begin{columns}
+\column[c]{7.5cm}
+\begin{itemize}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\item But to do anything more complex than simple pipes we probably want to write a script file to contain our sequence of commands:
+}
+\end{beamerboxesrounded}
+
+\end{itemize}
+\end{columns}
+
+\vspace*{0.5cm}\centering\includegraphics[width=10cm]{./images/sh-script.png}\\
+
+%\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+%\vspace*{0.5cm}
+%\item 
+%}
+%\end{beamerboxesrounded}
 %
-%\begin{columns}
-%
-%\column[c]{7.5cm}
-%
-%\begin{itemize}
-%
-%
-%\begin{beamerboxesrounded}[lower=gray,shadow=true]{\item }\end{beamerboxesrounded}
-%
-%\begin{beamerboxesrounded}[lower=gray,shadow=true]{\vspace*{0.5cm}\item }\end{beamerboxesrounded}
-%
-%\begin{beamerboxesrounded}[lower=gray,shadow=true]{\vspace*{0.5cm}\item }\end{beamerboxesrounded}
-%
-%
-%\end{itemize}
-%
-%\end{columns}
-%
-%\end{frame}
+%\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+%\vspace*{0.5cm}
+%\item 
+%}
+%\end{beamerboxesrounded}
+
+
+
+
+\end{frame}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% END CONTENT %%%%%%%%%%%%%%%%%%%%%%

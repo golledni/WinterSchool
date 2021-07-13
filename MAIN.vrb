@@ -1,0 +1,29 @@
+\frametitle{\insertsectionnumber { |} Simple (bash) shell scripting}
+
+
+
+\begin{columns}
+\column[c]{7.5cm}
+\begin{itemize}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\item We can combine many simple commands, tools, and utilities to achieve more complex tasks
+}
+\end{beamerboxesrounded}
+\end{itemize}
+\end{columns}
+
+\vspace*{1cm}\begin{lstlisting}
+pwd
+/home/golledni/MEGA/Work/AntSciPlat/WinterSchool
+
+pwd | sed -e `s/\// /g' | awk `{print "Today my",$1,"is the",$NF}'
+Today my home is the WinterSchool
+\end{lstlisting}
+
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\vspace*{0.5cm}
+}
+\end{beamerboxesrounded}
+
