@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  13 JUL 2021 09:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  13 JUL 2021 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1405,7 +1405,7 @@ Overfull \hbox (20.35085pt too wide) in paragraph at lines 35--35
  []
 
 
-Overfull \vbox (8.35226pt too high) detected at line 35
+Overfull \vbox (5.50682pt too high) detected at line 35
  []
 
 Package atenddvi Info: Last page = 4.
@@ -1456,7 +1456,7 @@ urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MAIN.pdf (4 pages, 628672 bytes).
+Output written on MAIN.pdf (4 pages, 628736 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
