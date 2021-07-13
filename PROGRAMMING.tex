@@ -86,23 +86,64 @@ Today my home is the WinterSchool
 
 \vspace*{0.5cm}\centering\includegraphics[width=10cm]{./images/sh-script.png}\\
 
-%\begin{beamerboxesrounded}[lower=gray,shadow=true]{
-%\vspace*{0.5cm}
-%\item 
-%}
-%\end{beamerboxesrounded}
-%
-%\begin{beamerboxesrounded}[lower=gray,shadow=true]{
-%\vspace*{0.5cm}
-%\item 
-%}
-%\end{beamerboxesrounded}
+
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{\insertsectionnumber{ |} Control structures}
+
+\begin{columns}
+\column[c]{4cm}
+\begin{itemize}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\item Often we want to apply a test, or series of tests, to the data we're processing, and do different things with the data depending of the results of those tests
+\item Control structures are what help us achieve this, and are fundamental to all languages
+\item The two most common generic structures are 
+\begin{itemize}
+\item \Verb+if+ statements, and
+\item \Verb+for+ or \Verb+do+ loops 
+\end{itemize}}
+\end{beamerboxesrounded}
+
+\end{itemize}
+
+\column[c]{5.5cm}
+
+\Verb+if+ statement:
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\Verb+ i=0 +              \\
+\Verb+ if [ \$i -ge 1 ] + \\
+\Verb+ then +             \\
+\Verb+ ~~~echo "i = \$i" +\\
+\Verb+ else +             \\
+\Verb+ ~~~echo "i < 1" +  \\
+\Verb+ fi +
+}
+\end{beamerboxesrounded}
+
+
+\vspace*{1cm}\Verb+do+ loop:
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\Verb+ i=0 +              \\
+\Verb+ imax=10 +              \\
+\Verb+ while [ \$i -le imax ] ; do + \\
+\Verb+ ~~~echo "i = \$i" +\\
+\Verb! ~~~i=`expr \$i + 1` !  \\
+\Verb+ done +
+}
+\end{beamerboxesrounded}
+
+
+\end{columns}
 
 
 
 
 \end{frame}
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% END CONTENT %%%%%%%%%%%%%%%%%%%%%%
