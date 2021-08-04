@@ -146,4 +146,191 @@ Today my home is the WinterSchool
 \end{frame}
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{\insertsectionnumber{ |} ``Hello, World!''}
+
+\begin{columns}
+
+\column[c]{5cm}
+
+Bash:
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\Verb+ \#!/bin/sh + \\
+\Verb+  + \\
+\Verb+ echo "Hello, World!" +             
+}
+\end{beamerboxesrounded}
+
+
+\vspace*{0.5cm} Python:
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\Verb+ \#!/usr/bin/env Python +   \\
+\Verb+  +              \\
+\Verb+ print "Hello, World!" + 
+}
+\end{beamerboxesrounded}
+
+
+\vspace*{0.5cm} Julia:
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\Verb+ \#!/usr/bin/env Julia + \\
+\Verb+  +              \\
+\Verb+ print("Hello, World!") + 
+}
+\end{beamerboxesrounded}
+
+\column[c]{5.5cm}
+
+Fortran 90:
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\Verb+ PROGRAM HELLOWORLD +  \\
+\Verb+ + \\
+\Verb+ ~~~IMPLICIT NONE + \\
+\Verb+ ~~~print *, 'Hello, World!' + \\
+\Verb+ + \\
+\Verb+ END + 
+}
+\end{beamerboxesrounded}
+
+
+\vspace*{0.5cm} C++:
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\Verb+ \#include <iostream> +   \\
+\Verb+                              +\\
+\Verb+ int main() \{ +              \\
+\Verb+ ~~~std::cout << "Hello, World!"; + \\
+\Verb+ ~~~return 0; + \\
+\Verb+ \} + 
+}
+\end{beamerboxesrounded}
+
+
+\end{columns}
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Interpreted vs. compiled languages}
+
+
+
+\begin{itemize}
+
+\item \underline{Compiled languages} require a \emph{compiler} to convert user code into machine code
+\item Typically they create a platform-dependent binary (executable) file
+\item If the code doesn't change, the binary can be run again and again
+\item Once compiled, programs using these languages are typically very fast to run
+
+\vspace*{1cm}\item \underline{Interpreted languages} read and execute user code line-by-line
+\item No separate compilation step is required, so programs are platform-\emph{in}dependent
+\item But, interpretation has to happen every time the code is run
+\item As a result, this kind of code is typically slow to run
+
+\end{itemize}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Just-in-time compilers}
+
+
+\begin{columns}
+
+\column[c]{4cm}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+
+Just-in-time (JIT) compilation: \\
+
+\begin{itemize}
+
+\item Some modern languages like \textbf{Julia} use the JIT (or dynamic compilation) approach
+\item With JIT, compilation of relevant code occurs \underline{at runtime}
+\item If same packages / modules are called in subsequent runs, no re-compilation is necessary
+\item This approach combines the best aspects of interpreted and compiled languages
+\end{itemize}
+}
+\end{beamerboxesrounded}
+
+
+\column[c]{6cm}
+
+\includegraphics[width=6cm]{images/julia_web.png}
+
+\end{columns}
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Fundamentals of numerical modelling}
+
+
+\begin{columns}
+
+\column[c]{6cm}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\begin{itemize}
+\item Usually, a numerical model consists of a set of calculations that are repeated
+\item Typically, each repetition of the solution involves a step forward in time
+\item A spatially \emph{discretized} model may use an \emph{implicit} or \emph{explicit} time step
+\item Numerical solutions are prone to error (compared to an analytical solution)
+\item Accumulated error tends to produce instability \& model crash
+\item Usual culprits are fluxes getting too great, or time steps being too long
+\end{itemize}
+}
+\end{beamerboxesrounded}
+
+\column[c]{4.5cm}
+\includegraphics[width=4.25cm]{images/PP-sensitivity.png}
+
+\end{columns}
+
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Fundamentals of numerical modelling}
+
+
+\begin{columns}
+
+\column[c]{6cm}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\begin{itemize}
+\item Often the equations we are trying to solve are differential equations, i.e. they describe a quantity that changes through time
+\end{itemize}
+\centering\includegraphics[width=3cm]{images/lorenz_eqs.png}\\
+}
+\end{beamerboxesrounded}
+
+\column[c]{4.5cm}
+%\includemedia[width=4.25cm]{images/lorenz_2.mp4}
+\href{run:mplayer ./images/lorenz_2.gif}{
+\includegraphics[scale=0.25]
+{./images/lorenz_eqs.png}}
+\end{columns}
+
+
+\end{frame}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%% END CONTENT %%%%%%%%%%%%%%%%%%%%%%

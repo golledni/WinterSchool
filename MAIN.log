@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  13 JUL 2021 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  4 AUG 2021 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -780,96 +780,7 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/movie15/movie15.sty
-Package: movie15 2012/05/16
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
-Package: ifdraft 2008/08/11 v1.3 Detect class options draft and final (HO)
-)
-\@MXV@page=\count154
-\@MXV@adict=\count155
-\@MXV@aadict=\count156
-\@MXV@includes=\count157
-\@MXV@players=\count158
-\@MXV@links=\count159
-\@MXV@width=\dimen193
-\@MXV@height=\dimen194
-\@MXV@depth=\dimen195
-\@MXV@totalheight=\dimen196
-\@MXV@@boxdepth=\dimen197
-\@MXV@traiselen=\dimen198
-\@MXV@braiselen=\dimen199
-\@MXV@start=\dimen256
-\@MXV@end=\dimen257
-\@MXV@textbox=\box55
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count160
-\calc@Bcount=\count161
-\calc@Adimen=\dimen258
-\calc@Bdimen=\dimen259
-\calc@Askip=\skip58
-\calc@Bskip=\skip59
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count162
-\calc@Cskip=\skip60
-)
-(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
-)
-\AM@pagewidth=\dimen260
-\AM@pageheight=\dimen261
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
-)
-\AM@pagebox=\box56
-\AM@toc@title=\toks54
-\c@AM@survey=\count163
-\AM@templatesizebox=\box57
-)
-(/usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
-Package: animate 2016/03/15 PDF animations from files and inline graphics
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/atenddvi.sty
-Package: atenddvi 2007/04/17 v1.1 At end DVI hook (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
-Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-base.sty
-Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
-Package zref Info: New property list: main on input line 759.
-Package zref Info: New property: default on input line 760.
-Package zref Info: New property: page on input line 761.
-)
-\c@abspage=\count164
-Package zref Info: New property: abspage on input line 62.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-lastpage.sty
-Package: zref-lastpage 2012/04/04 v2.24 Module lastpage for zref (HO)
-Package zref Info: New property list: LastPage on input line 55.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/animate/animfp.sty
-Package: animfp 2009/07/23 fixed point addition for animate.sty
-\afp@xs=\count165
-\afp@xia=\count166
-\afp@xib=\count167
-\afp@xfa=\count168
-\afp@xfb=\count169
-\afp@rega=\count170
-\afp@regb=\count171
-\afp@regs=\count172
-)
-(/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/media9/media9.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
 
@@ -883,37 +794,37 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count173
-\l_tmpa_int=\count174
-\l_tmpb_int=\count175
-\g_tmpa_int=\count176
-\g_tmpb_int=\count177
+\c_max_int=\count154
+\l_tmpa_int=\count155
+\l_tmpb_int=\count156
+\g_tmpa_int=\count157
+\g_tmpb_int=\count158
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count178
+\g__prg_map_int=\count159
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count179
-\l__iow_target_count_int=\count180
-\l__iow_current_line_int=\count181
-\l__iow_current_word_int=\count182
-\l__iow_current_indentation_int=\count183
+\l_iow_line_count_int=\count160
+\l__iow_target_count_int=\count161
+\l__iow_current_line_int=\count162
+\l__iow_current_word_int=\count163
+\l__iow_current_indentation_int=\count164
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
-\c_zero_dim=\dimen262
-\c_max_dim=\dimen263
-\l_tmpa_dim=\dimen264
-\l_tmpb_dim=\dimen265
-\g_tmpa_dim=\dimen266
-\g_tmpb_dim=\dimen267
-\c_zero_skip=\skip61
-\c_max_skip=\skip62
-\l_tmpa_skip=\skip63
-\l_tmpb_skip=\skip64
-\g_tmpa_skip=\skip65
-\g_tmpb_skip=\skip66
+\c_zero_dim=\dimen193
+\c_max_dim=\dimen194
+\l_tmpa_dim=\dimen195
+\l_tmpb_dim=\dimen196
+\g_tmpa_dim=\dimen197
+\g_tmpb_dim=\dimen198
+\c_zero_skip=\skip58
+\c_max_skip=\skip59
+\l_tmpa_skip=\skip60
+\l_tmpb_skip=\skip61
+\g_tmpa_skip=\skip62
+\g_tmpb_skip=\skip63
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
@@ -921,170 +832,279 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count184
-\l_keys_choice_int=\count185
+\g__keyval_level_int=\count165
+\l_keys_choice_int=\count166
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count186
-\c__fp_middle_shift_int=\count187
-\c__fp_trailing_shift_int=\count188
-\c__fp_big_leading_shift_int=\count189
-\c__fp_big_middle_shift_int=\count190
-\c__fp_big_trailing_shift_int=\count191
-\c__fp_Bigg_leading_shift_int=\count192
-\c__fp_Bigg_middle_shift_int=\count193
-\c__fp_Bigg_trailing_shift_int=\count194
+\c__fp_leading_shift_int=\count167
+\c__fp_middle_shift_int=\count168
+\c__fp_trailing_shift_int=\count169
+\c__fp_big_leading_shift_int=\count170
+\c__fp_big_middle_shift_int=\count171
+\c__fp_big_trailing_shift_int=\count172
+\c__fp_Bigg_leading_shift_int=\count173
+\c__fp_Bigg_middle_shift_int=\count174
+\c__fp_Bigg_trailing_shift_int=\count175
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
-\c_empty_box=\box58
-\l_tmpa_box=\box59
-\l_tmpb_box=\box60
-\g_tmpa_box=\box61
-\g_tmpb_box=\box62
+\c_empty_box=\box55
+\l_tmpa_box=\box56
+\l_tmpb_box=\box57
+\g_tmpa_box=\box58
+\g_tmpb_box=\box59
 L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
-\l__coffin_internal_box=\box63
-\l__coffin_internal_dim=\dimen268
-\l__coffin_offset_x_dim=\dimen269
-\l__coffin_offset_y_dim=\dimen270
-\l__coffin_x_dim=\dimen271
-\l__coffin_y_dim=\dimen272
-\l__coffin_x_prime_dim=\dimen273
-\l__coffin_y_prime_dim=\dimen274
-\c_empty_coffin=\box64
-\l__coffin_aligned_coffin=\box65
-\l__coffin_aligned_internal_coffin=\box66
-\l_tmpa_coffin=\box67
-\l_tmpb_coffin=\box68
-\l__coffin_display_coffin=\box69
-\l__coffin_display_coord_coffin=\box70
-\l__coffin_display_pole_coffin=\box71
-\l__coffin_display_offset_dim=\dimen275
-\l__coffin_display_x_dim=\dimen276
-\l__coffin_display_y_dim=\dimen277
+\l__coffin_internal_box=\box60
+\l__coffin_internal_dim=\dimen199
+\l__coffin_offset_x_dim=\dimen256
+\l__coffin_offset_y_dim=\dimen257
+\l__coffin_x_dim=\dimen258
+\l__coffin_y_dim=\dimen259
+\l__coffin_x_prime_dim=\dimen260
+\l__coffin_y_prime_dim=\dimen261
+\c_empty_coffin=\box61
+\l__coffin_aligned_coffin=\box62
+\l__coffin_aligned_internal_coffin=\box63
+\l_tmpa_coffin=\box64
+\l_tmpb_coffin=\box65
+\l__coffin_display_coffin=\box66
+\l__coffin_display_coord_coffin=\box67
+\l__coffin_display_pole_coffin=\box68
+\l__coffin_display_offset_dim=\dimen262
+\l__coffin_display_x_dim=\dimen263
+\l__coffin_display_y_dim=\dimen264
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
 L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen278
-\l__box_bottom_dim=\dimen279
-\l__box_left_dim=\dimen280
-\l__box_right_dim=\dimen281
-\l__box_top_new_dim=\dimen282
-\l__box_bottom_new_dim=\dimen283
-\l__box_left_new_dim=\dimen284
-\l__box_right_new_dim=\dimen285
-\l__box_internal_box=\box72
-\l__coffin_bounding_shift_dim=\dimen286
-\l__coffin_left_corner_dim=\dimen287
-\l__coffin_right_corner_dim=\dimen288
-\l__coffin_bottom_corner_dim=\dimen289
-\l__coffin_top_corner_dim=\dimen290
-\l__coffin_scaled_total_height_dim=\dimen291
-\l__coffin_scaled_width_dim=\dimen292
+\l__box_top_dim=\dimen265
+\l__box_bottom_dim=\dimen266
+\l__box_left_dim=\dimen267
+\l__box_right_dim=\dimen268
+\l__box_top_new_dim=\dimen269
+\l__box_bottom_new_dim=\dimen270
+\l__box_left_new_dim=\dimen271
+\l__box_right_new_dim=\dimen272
+\l__box_internal_box=\box69
+\l__coffin_bounding_shift_dim=\dimen273
+\l__coffin_left_corner_dim=\dimen274
+\l__coffin_right_corner_dim=\dimen275
+\l__coffin_bottom_corner_dim=\dimen276
+\l__coffin_top_corner_dim=\dimen277
+\l__coffin_scaled_total_height_dim=\dimen278
+\l__coffin_scaled_width_dim=\dimen279
 L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count195
+\l__driver_color_stack_int=\count176
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty
 Package: l3regex 2016/01/19 v6377 L3 Experimental regular expressions
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
 Package: l3tl-build 2016/01/19 v6377 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count196
-\l__tl_build_index_int=\count197
+\l__tl_build_start_index_int=\count177
+\l__tl_build_index_int=\count178
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
 Package: l3tl-analysis 2015/11/09 v6244 L3 Experimental token lists analysis
-\l__tl_analysis_normal_int=\count198
-\l__tl_analysis_index_int=\count199
-\l__tl_analysis_nesting_int=\count266
-\l__tl_analysis_type_int=\count267
+\l__tl_analysis_normal_int=\count179
+\l__tl_analysis_index_int=\count180
+\l__tl_analysis_nesting_int=\count181
+\l__tl_analysis_type_int=\count182
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 Package: l3flag 2016/01/19 v6377 L3 Experimental flags
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
 Package: l3str-convert 2015/09/26 v6106 L3 Experimental string encoding convers
 ions
-\l__str_internal_int=\count268
-\c__str_replacement_char_int=\count269
+\l__str_internal_int=\count183
+\c__str_replacement_char_int=\count184
 )
-\l__regex_internal_a_int=\count270
-\l__regex_internal_b_int=\count271
-\l__regex_internal_c_int=\count272
-\l__regex_balance_int=\count273
-\l__regex_group_level_int=\count274
-\l__regex_mode_int=\count275
-\l__regex_catcodes_int=\count276
-\l__regex_default_catcodes_int=\count277
-\c__regex_catcode_D_int=\count278
-\c__regex_catcode_S_int=\count279
-\c__regex_catcode_L_int=\count280
-\c__regex_catcode_O_int=\count281
-\c__regex_catcode_A_int=\count282
-\c__regex_all_catcodes_int=\count283
-\l__regex_show_lines_int=\count284
-\l__regex_min_state_int=\count285
-\l__regex_max_state_int=\count286
-\l__regex_left_state_int=\count287
-\l__regex_right_state_int=\count288
-\l__regex_capturing_group_int=\count289
-\l__regex_min_pos_int=\count290
-\l__regex_max_pos_int=\count291
-\l__regex_current_pos_int=\count292
-\l__regex_start_pos_int=\count293
-\l__regex_success_pos_int=\count294
-\l__regex_current_char_int=\count295
-\l__regex_current_catcode_int=\count296
-\l__regex_last_char_int=\count297
-\l__regex_case_changed_char_int=\count298
-\l__regex_current_state_int=\count299
-\l__regex_step_int=\count300
-\l__regex_min_active_int=\count301
-\l__regex_max_active_int=\count302
-\l__regex_replacement_csnames_int=\count303
-\l__regex_match_count_int=\count304
-\l__regex_submatch_int=\count305
-\l__regex_zeroth_submatch_int=\count306
+\l__regex_internal_a_int=\count185
+\l__regex_internal_b_int=\count186
+\l__regex_internal_c_int=\count187
+\l__regex_balance_int=\count188
+\l__regex_group_level_int=\count189
+\l__regex_mode_int=\count190
+\l__regex_catcodes_int=\count191
+\l__regex_default_catcodes_int=\count192
+\c__regex_catcode_D_int=\count193
+\c__regex_catcode_S_int=\count194
+\c__regex_catcode_L_int=\count195
+\c__regex_catcode_O_int=\count196
+\c__regex_catcode_A_int=\count197
+\c__regex_all_catcodes_int=\count198
+\l__regex_show_lines_int=\count199
+\l__regex_min_state_int=\count266
+\l__regex_max_state_int=\count267
+\l__regex_left_state_int=\count268
+\l__regex_right_state_int=\count269
+\l__regex_capturing_group_int=\count270
+\l__regex_min_pos_int=\count271
+\l__regex_max_pos_int=\count272
+\l__regex_current_pos_int=\count273
+\l__regex_start_pos_int=\count274
+\l__regex_success_pos_int=\count275
+\l__regex_current_char_int=\count276
+\l__regex_current_catcode_int=\count277
+\l__regex_last_char_int=\count278
+\l__regex_case_changed_char_int=\count279
+\l__regex_current_state_int=\count280
+\l__regex_step_int=\count281
+\l__regex_min_active_int=\count282
+\l__regex_max_active_int=\count283
+\l__regex_replacement_csnames_int=\count284
+\l__regex_match_count_int=\count285
+\l__regex_submatch_int=\count286
+\l__regex_zeroth_submatch_int=\count287
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 )
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count288
+\l__xparse_m_args_int=\count289
+\l__xparse_mandatory_args_int=\count290
+\l__xparse_processor_int=\count291
+\l__xparse_v_nesting_int=\count292
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/atenddvi.sty
+Package: atenddvi 2007/04/17 v1.1 At end DVI hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count293
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-lastpage.sty
+Package: zref-lastpage 2012/04/04 v2.24 Module lastpage for zref (HO)
+Package zref Info: New property list: LastPage on input line 55.
+))
+Package: media9 2016/03/11 v0.67 acrobat-9/X compatible media
+\g_mix_pkgresizeflag_int=\count294
+
+(/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2016/03/11 v0.7 driver independent access to low-level PDF fea
 tures
-\g_pbs_oc_int=\count307
+\g_pbs_oc_int=\count295
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2016/03/11 v0.6 support package for ocgx2.sty
 )
+\l_mix_poster_box=\box70
+\g_mix_wd_dim=\dimen280
+\g_mix_ht_dim=\dimen281
+\g_mix_dp_dim=\dimen282
+\g_mix_rmcnt_int=\count296
+\l_mix_viewcnt_int=\count297
+\g@mix@page@int=\count298
+\g_mix_resizeflag_int=\count299
+\l_mix_lineno_int=\count300
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addmediapath with sig. 'm' on line 818.
+.................................................
+\l_mix_pbtn_box=\box71
+\mix@btn@dim=\dimen283
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \includemedia with sig. 'O{}mm' on line 1210.
+.................................................
+\g_mix_mbtncnt_int=\count301
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mediabutton with sig. 'O{}m' on line 2416.
+.................................................
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count302
+\calc@Bcount=\count303
+\calc@Adimen=\dimen284
+\calc@Bdimen=\dimen285
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count304
+\calc@Cskip=\skip66
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+)
+\AM@pagewidth=\dimen286
+\AM@pageheight=\dimen287
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box72
+\AM@toc@title=\toks54
+\c@AM@survey=\count305
+\AM@templatesizebox=\box73
+)
+(/usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2016/03/15 PDF animations from files and inline graphics
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2008/08/11 v1.3 Detect class options draft and final (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/animate/animfp.sty
+Package: animfp 2009/07/23 fixed point addition for animate.sty
+\afp@xs=\count306
+\afp@xia=\count307
+\afp@xib=\count308
+\afp@xfa=\count309
+\afp@xfb=\count310
+\afp@rega=\count311
+\afp@regb=\count312
+\afp@regs=\count313
+)
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen293
-\scratchbox=\box73
-\nofMPsegments=\count309
-\nofMParguments=\count310
+\scratchcounter=\count314
+\scratchdimen=\dimen288
+\scratchbox=\box74
+\nofMPsegments=\count315
+\nofMParguments=\count316
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen294
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen289
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
 \everyMPtoPDFconversion=\toks56
 )
-\@anim@box=\box74
-\@anim@measbox=\box75
-\@anim@tmpdima=\dimen295
-\@anim@tmpdimb=\dimen296
-\@anim@num=\count314
-\@anim@curframe=\count315
-\@anim@curframe@zb=\count316
-\@anim@resizeflags=\count317
-\@anim@skipfram=\count318
-\@anim@mulframecnt=\count319
+\@anim@box=\box75
+\@anim@measbox=\box76
+\@anim@tmpdima=\dimen290
+\@anim@tmpdimb=\dimen291
+\@anim@num=\count320
+\@anim@curframe=\count321
+\@anim@curframe@zb=\count322
+\@anim@resizeflags=\count323
+\@anim@skipfram=\count324
+\@anim@mulframecnt=\count325
 \@anim@@tmlnfile=\read3
-\@anim@tmpcnt=\count320
-\c@@anim@ltxcnt=\count321
-\@anim@curlayer=\count322
-\@anim@lineno=\count323
-\@anim@curfield=\count324
-\@anim@@resizeflags=\count325
+\@anim@tmpcnt=\count326
+\c@@anim@ltxcnt=\count327
+\@anim@curlayer=\count328
+\@anim@lineno=\count329
+\@anim@curfield=\count330
+\@anim@@resizeflags=\count331
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks57
@@ -1096,32 +1116,32 @@ Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count326
+\FV@CodeLineNo=\count332
 \FV@InFile=\read5
-\FV@TabBox=\box76
-\c@FancyVerbLine=\count327
-\FV@StepNumber=\count328
+\FV@TabBox=\box77
+\c@FancyVerbLine=\count333
+\FV@StepNumber=\count334
 \FV@OutFile=\write6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count329
-\lst@gtempboxa=\box77
+\lst@mode=\count335
+\lst@gtempboxa=\box78
 \lst@token=\toks59
-\lst@length=\count330
-\lst@currlwidth=\dimen297
-\lst@column=\count331
-\lst@pos=\count332
-\lst@lostspace=\dimen298
-\lst@width=\dimen299
-\lst@newlines=\count333
-\lst@lineno=\count334
-\lst@maxwidth=\dimen300
+\lst@length=\count336
+\lst@currlwidth=\dimen292
+\lst@column=\count337
+\lst@pos=\count338
+\lst@lostspace=\dimen293
+\lst@width=\dimen294
+\lst@newlines=\count339
+\lst@lineno=\count340
+\lst@maxwidth=\dimen295
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count335
-\lst@skipnumbers=\count336
-\lst@framebox=\box78
+\c@lstnumber=\count341
+\lst@skipnumbers=\count342
+\lst@framebox=\box79
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -1130,54 +1150,54 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 83.
 
 (./MAIN.aux (./INTRO.aux) (./PROGRAMMING.aux))
 \openout1 = `MAIN.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 142.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 143.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1232,8 +1252,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 142.
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring OFF on input line 143.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1241,11 +1261,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count337
+\c@section@level=\count343
 )
-LaTeX Info: Redefining \ref on input line 142.
-LaTeX Info: Redefining \pageref on input line 142.
-LaTeX Info: Redefining \nameref on input line 142.
+LaTeX Info: Redefining \ref on input line 143.
+LaTeX Info: Redefining \pageref on input line 143.
+LaTeX Info: Redefining \nameref on input line 143.
 
 (./MAIN.out) (./MAIN.out)
 \@outlinefile=\write7
@@ -1276,7 +1296,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 142.
+LaTeX Info: Redefining \includegraphics on input line 143.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
@@ -1286,16 +1306,16 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-\c@lstlisting=\count338
+\c@lstlisting=\count344
  (./MAIN.nav)
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 142.
-LaTeX Font Info:    Try loading font information for U+msa on input line 158.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 143.
+LaTeX Font Info:    Try loading font information for U+msa on input line 159.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 158.
+LaTeX Font Info:    Try loading font information for U+msb on input line 159.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1304,37 +1324,37 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: ./logos/ASP_Hub_COL_black.png Graphic file (type png)
 
 <use ./logos/ASP_Hub_COL_black.png>
-Package pdftex.def Info: ./logos/ASP_Hub_COL_black.png used on input line 158.
+Package pdftex.def Info: ./logos/ASP_Hub_COL_black.png used on input line 159.
 (pdftex.def)             Requested size: 101.6027pt x 28.45274pt.
 
 <./logos/VUW-logo-new.jpg, id=24, 401.5pt x 401.5pt>
 File: ./logos/VUW-logo-new.jpg Graphic file (type jpg)
 
 <use ./logos/VUW-logo-new.jpg>
-Package pdftex.def Info: ./logos/VUW-logo-new.jpg used on input line 158.
+Package pdftex.def Info: ./logos/VUW-logo-new.jpg used on input line 159.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 
 <./logos/mbie-logo.png, id=25, 664.4825pt x 194.7275pt>
 File: ./logos/mbie-logo.png Graphic file (type png)
 
 <use ./logos/mbie-logo.png>
-Package pdftex.def Info: ./logos/mbie-logo.png used on input line 158.
+Package pdftex.def Info: ./logos/mbie-logo.png used on input line 159.
 (pdftex.def)             Requested size: 97.08258pt x 28.45274pt.
 
 <./logos/GNS_logo.jpg, id=26, 819.06pt x 1373.13pt>
 File: ./logos/GNS_logo.jpg Graphic file (type jpg)
  <use ./logos/GNS_logo.jpg>
-Package pdftex.def Info: ./logos/GNS_logo.jpg used on input line 158.
+Package pdftex.def Info: ./logos/GNS_logo.jpg used on input line 159.
 (pdftex.def)             Requested size: 16.95955pt x 28.45274pt.
 
 <./logos/niwa-logo.png, id=27, 48.26044pt x 17.61505pt>
 File: ./logos/niwa-logo.png Graphic file (type png)
 
 <use ./logos/niwa-logo.png>
-Package pdftex.def Info: ./logos/niwa-logo.png used on input line 158.
+Package pdftex.def Info: ./logos/niwa-logo.png used on input line 159.
 (pdftex.def)             Requested size: 77.95981pt x 28.45274pt.
 
-Overfull \hbox (24.13943pt too wide) in paragraph at lines 158--158
+Overfull \hbox (24.13943pt too wide) in paragraph at lines 159--159
  []|  []|  []|  []|  []|  [] 
  []
 
@@ -1346,7 +1366,7 @@ Overfull \vbox (27.78297pt too high) has occurred while \output is active []
 File: ./images/antarctic_4_tw.jpg Graphic file (type jpg)
 
 <use ./images/antarctic_4_tw.jpg>
-Package pdftex.def Info: ./images/antarctic_4_tw.jpg used on input line 158.
+Package pdftex.def Info: ./images/antarctic_4_tw.jpg used on input line 159.
 (pdftex.def)             Requested size: 364.18318pt x 273.14662pt.
  [1
 
@@ -1463,10 +1483,57 @@ Underfull \hbox (badness 2662) in paragraph at lines 146--146
 []\T1/ptm/m/n/8 The two most com-mon generic
  []
 
-Package atenddvi Info: Last page = 7.
 [7
 
-])
+]
+Overfull \hbox (1.90996pt too wide) in paragraph at lines 212--212
+[] 
+ []
+
+[8
+
+] [9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+
+ []
+
+<images/julia_web.png, id=108, 1157.32375pt x 1182.4175pt>
+File: images/julia_web.png Graphic file (type png)
+
+<use images/julia_web.png>
+Package pdftex.def Info: images/julia_web.png used on input line 271.
+(pdftex.def)             Requested size: 170.71652pt x 174.4141pt.
+ [10
+
+ <./images/julia_web.png>]
+<images/PP-sensitivity.png, id=115, 2373.86874pt x 2743.24875pt>
+File: images/PP-sensitivity.png Graphic file (type png)
+
+<use images/PP-sensitivity.png>
+Package pdftex.def Info: images/PP-sensitivity.png used on input line 303.
+(pdftex.def)             Requested size: 120.92421pt x 139.72385pt.
+ [11
+
+ <./images/PP-sensitivity.png>]
+<images/lorenz_eqs.png, id=123, 225.84375pt x 195.73125pt>
+File: images/lorenz_eqs.png Graphic file (type png)
+
+<use images/lorenz_eqs.png>
+Package pdftex.def Info: images/lorenz_eqs.png used on input line 332.
+(pdftex.def)             Requested size: 85.35826pt x 73.97842pt.
+
+<./images/lorenz_eqs.png, id=125, 225.84375pt x 195.73125pt>
+File: ./images/lorenz_eqs.png Graphic file (type png)
+
+<use ./images/lorenz_eqs.png>
+Package pdftex.def Info: ./images/lorenz_eqs.png used on input line 332.
+(pdftex.def)             Requested size: 56.46078pt x 48.93268pt.
+Package atenddvi Info: Last page = 12.
+ [12
+
+ <./images/lorenz_eqs.png> <./images/lorenz_eqs.png>])
 \tf@nav=\write8
 \openout8 = `MAIN.nav'.
 
@@ -1476,30 +1543,23 @@ Package atenddvi Info: Last page = 7.
 \tf@snm=\write10
 \openout10 = `MAIN.snm'.
 
-
-
-Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-(movie15)                @@ Package `movie15' is obsolete and @@
-(movie15)                @@ superseded by `media9'.           @@
-(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 176.
-(./MAIN.aux (./INTRO.aux) (./PROGRAMMING.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 177.
+ (./MAIN.aux (./INTRO.aux) (./PROGRAMMING.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `MAIN.out' has not changed.
 (rerunfilecheck)             Checksum: 62BA4D1039838EBA0E1FAB26FF38FB29;102.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 30537 strings out of 493029
- 565252 string characters out of 6136233
- 675903 words of memory out of 5000000
- 33460 multiletter control sequences out of 15000+600000
+ 31222 strings out of 493029
+ 587244 string characters out of 6136233
+ 676751 words of memory out of 5000000
+ 34128 multiletter control sequences out of 15000+600000
  39197 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,68p,10405b,1068s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,68p,10366b,1068s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fo
@@ -1510,10 +1570,10 @@ rier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MAIN.pdf (7 pages, 708871 bytes).
+Output written on MAIN.pdf (12 pages, 1336489 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
