@@ -311,7 +311,7 @@ Just-in-time (JIT) compilation: \\
 
 \begin{columns}
 
-\column[c]{6cm}
+\column[c]{4.5cm}
 
 \begin{beamerboxesrounded}[lower=gray,shadow=true]{
 \begin{itemize}
@@ -321,16 +321,165 @@ Just-in-time (JIT) compilation: \\
 }
 \end{beamerboxesrounded}
 
-\column[c]{4.5cm}
-%\includemedia[width=4.25cm]{images/lorenz_2.mp4}
-\href{run:mplayer ./images/lorenz_2.gif}{
-\includegraphics[scale=0.25]
-{./images/lorenz_eqs.png}}
+\column[c]{6.5cm}
+\includegraphics[width=6.5cm]{images/lorenz.png}
+%\href{run:mplayer ./images/lorenz_2.gif}{
+%\includegraphics[scale=0.25]
+%{./images/lorenz_eqs.png}}
 \end{columns}
+\vspace*{0.5cm}\centering{Lorenz equations (of atmospheric convection)} \\
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Numerical modelling: epidemics}
+
+A good example of a system that changes through time with no inherently predictable\footnote{actually, for a simple system an analytical solution is possible}  outcome is the spread of an epidemic:
+
+\begin{columns}
+
+\hspace*{1cm}\column[c]{4.5cm}
+
+\vspace*{0.5cm}\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+
+\begin{itemize}
+\item We can define differential equations for different components of the susceptible population
+\begin{itemize}
+\item Susceptible
+\item Exposed
+\item Infected
+\item Recovered
+\end{itemize}
+\end{itemize}
+}
+\end{beamerboxesrounded}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+\centering\includegraphics[width=3cm]{images/SEIR_eqs.png}\\
+
+}
+\end{beamerboxesrounded}
+
+
+
+\hspace*{1cm}\column[c]{3.5cm}
+\includegraphics[width=3.5cm]{images/SEIR_plot.png}
+%\href{run:mplayer ./images/lorenz_2.gif}{
+%\includegraphics[scale=0.25]
+%{./images/lorenz_eqs.png}}
+\end{columns}
+
+\vspace*{0.5cm}\centering{(Bilge et al., 2012)}\\
 
 
 \end{frame}
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Numerical modelling: epidemics}
+
+
+\hspace*{-0.75cm}\includegraphics[height=6.75cm]{images/epi1D_1.png}
+\hspace*{-0.1cm}\includegraphics[height=6.75cm]{images/epi1D_2.png}
+
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Numerical modelling: epidemics}
+
+
+\centering\includegraphics[width=9cm]{images/epidemic.png}\\
+
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Numerical modelling: epidemics}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+
+\begin{itemize}
+\item Simple 1D system treats entire population as a bulk quantity
+\item Makes \emph{lots} of simplifying assumptions:
+\begin{itemize}
+\item Entirety of population are equally susceptible
+\item `Perfect' transmission occurs
+\item Recovery is just a matter of (uniform) time
+\item Full immunity follows
+\end{itemize}
+\item Good for understanding evolution of a simple system, but not very realistic
+\end{itemize}
+
+}
+
+\end{beamerboxesrounded}
+
+\vspace*{1cm}\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+
+Is it realistic to simulate epidemic evolution as a diffusive system?
+
+\begin{itemize}
+\item A `better' approach might be to consider transmission in spatial (as well as temporal) domain
+\item We could also introduce some randomness to allow for individual differences / chance occurrence in transmission \& recovery
+\item What if people die?
+\item What if people get reinfected?
+\end{itemize}
+}
+
+\end{beamerboxesrounded}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{\insertsectionnumber{ |} Numerical modelling: epidemics}
+
+\begin{columns}
+\hspace*{-0.25cm}\column[c]{4cm}
+
+
+
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+
+\begin{itemize}
+\item Cellular automata are non-physical statistical models that are useful for spatial problems
+\item Instead of percolation or diffusion equations, these are rule-based models
+\item They treat evolution of each discrete cell as dependent on the properties of neighbouring cells
+\item Allows for very complex scenarios, based primarily on a probabilistic rather than deterministic approach
+\end{itemize}
+
+}
+
+\end{beamerboxesrounded}
+
+
+\hspace*{-0.65cm}\column[c]{7.5cm}
+
+\centering\includegraphics[width=7.5cm]{images/epi2D_1.png}\\
+
+\end{columns}
+
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%% END CONTENT %%%%%%%%%%%%%%%%%%%%%%
