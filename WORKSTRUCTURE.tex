@@ -22,6 +22,42 @@ I wrote this really flash paragraph about extra-terrestian fossils in my samples
 \end{beamerboxesrounded}
 % version control, backup
 \vspace{0.3cm}
+
+\column[c]{5cm}
+
+%\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+%I just discovered a really cool feature in one of the 50+ simulations from last year. \\
+%What was the vertical diffusion I used in that simulation? And how warm was the atmospheric forcing data?
+%}
+%\end{beamerboxesrounded}
+% naming convention, backup
+
+% instant backup
+
+\vspace{0.2cm} \hspace{1cm}
+\includegraphics[height=3cm]{./images/bucket.jpg}
+%\end{itemize}
+\end{columns}
+\end{frame}
+
+%=============================================================================================
+ 
+\begin{frame}{\insertsectionnumber{ |} Reality Check}
+\begin{columns}
+\column[c]{5cm}
+
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+I plotted this real nice figure for Richard a while ago.  Now Peter wants something very similar. The graph just needs a different colormap. Wish I used a damn script and saved it.
+}
+\end{beamerboxesrounded}
+% work with scripts and save them with your figure
+\vspace*{0.2cm}
+\begin{beamerboxesrounded}[lower=gray,shadow=true]{
+I wrote this really flash paragraph about extra-terrestian fossils in my samples. Rob thought it was bogus.  Now that they have landed in Area 51 to collect their trash I would really like that paragraph back in the maunscript. 
+}
+\end{beamerboxesrounded}
+% version control, backup
+\vspace{0.3cm}
 \textbf{
 \begin{itemize}
 \item How do you work?
@@ -258,23 +294,14 @@ Brain
 %=============================================================================================
 \begin{frame}{\insertsectionnumber{ |} Workflow - example}
 
-\vspace{0.5cm}
-% schematic ?
-\begin{itemize}
-\item To be inserted Example Slide with schematic "how to set up and run a model and save outputs"\\
-%ScheRepeated interpolation of a bathymetry data set onto the target grid takes about 3 minutes
-Out of this will fall the terms "folder structure" "data handling" "version control/backup" "naming convention"
-which forms the TOC of the talk.
-\end{itemize}
- 
-\vspace{2cm}
+
+\includegraphics[width=11cm]{./images/workflow_example.png}
+
 \begin{itemize}
 
 \item Think of a small project in the recent past and sketch the associated workflow.
 Examples could be: writing a Marsden one pager, set up and run a simulation or 
-analyse rocks and record and store the data.
-
-\item Use the concept of State,  Process,  Tool
+analyse rocks and record and store the data. Use the concept of State,  Process,  Tool
 
 \end{itemize}
 
@@ -444,23 +471,23 @@ analyse rocks and record and store the data.
 \end{frame}
 
 %=============================================================================================
-\begin{frame}{\insertsectionnumber{ |} Version Control | git - repository \& init}
-\begin{itemize}
-\item Creating a repository  ...
-\end{itemize}
-\vspace{2cm}
-include in lecture ??? \\
-time factor ??
-\end{frame}
+%\begin{frame}{\insertsectionnumber{ |} Version Control | git - repository \& init}
+%\begin{itemize}
+%\item Creating a repository  ...
+%\end{itemize}
+%\vspace{2cm}
+%include in lecture ??? \\
+%time factor ??
+%\end{frame}
 %%=============================================================================================
 \begin{frame}{\insertsectionnumber{ |} Version Control | git - stage \& commit}
 
 \begin{beamerboxesrounded}[lower=gray,shadow=true]{
 
 clone the repository \\
-\Verb+ git clone  https://github.com/sj-science/WinterSchool\_train\_repo +   \\
+\Verb+ git clone  https://github.com/sj-science//WinterSchool\_train\_repo +   \\
 descend into project directory \\
-\Verb+ cd WinterSchool\_train\_repo +   \\
+\Verb+ cd /WinterSchool\_train\_repo +   \\
 list the folder content, -l gives more information, -h makes the file size human readable \\
 \Verb+ ls -lh  + 
 }
@@ -678,12 +705,13 @@ says we can fast forward with a simple command - GREAT!
 
 \begin{beamerboxesrounded}[lower=gray,shadow=true]{
 push changes to the online repository \\
-\footnotesize{
+
 \Verb+ git push + \\
-\\
-\Verb+ To https://github.com/golledni/WinterSchool + \\
+\footnotesize{
+\Verb+ +\\
+\Verb+ To https://github.com/golledni//WinterSchool\_train\_repo + \\
 \Verb+ ! [rejected]        play\_branch\_sj -> play\_branch\_sj (fetch first) + \\
-\Verb+ error: failed to push some refs to 'https://github.com/golledni/WinterSchool' + \\
+\Verb+ error: failed to push some refs to 'https://github.com/golledni//WinterSchool\_train\_repo' + \\
 \Verb+ hint: Updates were rejected because the remote contains work that you do + \\
 \Verb+ hint: not have locally. This is usually caused by another repository pushing + \\
 \Verb+ hint: to the same ref. You may want to first integrate the remote changes + \\
@@ -700,24 +728,276 @@ push changes to the online repository \\
 \end{frame}
 
 %=============================================================================================
-\begin{frame}{\insertsectionnumber{ |} Version Control | git - branches \& merge}
+\begin{frame}{\insertsectionnumber{ |} Version Control | git - merge}
 \begin{itemize}
 \item Two choices - merge or new branch ...
-
-\vspace{2cm}
 \item merge \\
-\Verb+ git pull + \\
-\# Please enter a commit message to explain why this merge is necessary, \\
-\# especially if it merges an updated upstream into a topic branch. \\
-\# \\
-\# Lines starting with '\#' will be ignored, and an empty message aborts \\
-\# the commit. \\
-\item the merging happens on the local repository
-\Verb+ ls + \\
-\item you see that the remote change has been pulled to your folder and the file you originall committed has been uncomitted
-\item re-commit your new file
 
+\Verb+git pull + \\
+\footnotesize{
+\Verb+ + \\
+\Verb+  GNU nano 2.9.3                  /home/..../.git/MERGE\_MSG + \\
+\Verb+Merge branch 'main' of https://github.com/sj-science//WinterSchool\_train\_repo into main +\\
+\Verb+ + \\
+\Verb+\# Please enter a commit message to explain why this merge is necessary, +\\
+\Verb+\# especially if it merges an updated upstream into a topic branch. +\\
+\Verb+\# +\\
+\Verb+\# Lines starting with '\#' will be ignored, and an empty message aborts +\\
+\Verb+\# the commit. + 
+}
 \end{itemize}
+\begin{itemize}
+
+
+\item the merging happens on the local repository \\
+\Verb+ ls + \\
+\item remote change has been pulled to local folder
+\item the file you originall committed has been uncomitted \\
+
+\Verb+git status + \\
+
+\footnotesize{
+\Verb+ +\\
+\Verb+On branch main +\\
+\Verb+Your branch and 'origin/main' have diverged, +\\
+\Verb+and have 1 and 2 different commits each, respectively. +\\
+\Verb+  (use "git pull" to merge the remote branch into yours) +\\
+
+\Verb+All conflicts fixed but you are still merging. +\\
+\Verb+  (use "git commit" to conclude merge) +\\
+
+\Verb+Changes to be committed: +\\
+\Verb+new file:   blub.txt +\\
+}
+\end{itemize}
+\end{frame}
+%=============================================================================================
+\begin{frame}{\insertsectionnumber{ |} Version Control | git - merge}
+\begin{itemize}
+
+
+\item re-commit your new file \\
+\end{itemize}
+\Verb+git commit -m "re-commit my new file to finish merge" +\\
+\Verb+git status +\\
+
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+On branch main +\\
+\Verb+Your branch is ahead of 'origin/main' by 2 commits. +\\
+\Verb+  (use "git push" to publish your local commits)  +\\
+\Verb+  +\\
+\Verb+nothing to commit, working tree clean  +
+}
+\end{tcolorbox}
+
+\normalsize{
+\Verb+git push +\\
+\Verb+git status +\\
+}
+
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+On branch main +\\
+\Verb+Your branch is up to date with 'origin/main'. +\\
+\Verb+ +\\
+\Verb+nothing to commit, working tree clean +
+
+}
+\end{tcolorbox}
+
+
+%\tcbox[enhanced,fontupper=\large\bfseries,drop fuzzy shadow southwest,
+%    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,
+%    colback=yellow!10]{(G) text write here}
+
+
+\end{frame}
+%=============================================================================================
+\begin{frame}{\insertsectionnumber{ |} Version Control | git - branch}
+
+\Verb+ git push + \\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]    
+\footnotesize{
+\Verb+ To https://github.com/sj-science//WinterSchool\_train\_repo + \\
+\Verb+ ! [rejected]        play\_branch\_sj -> play\_branch\_sj (fetch first) + \\
+\Verb+ error: failed to push some refs to 'https://github.com/sj-science//WinterSchool\_train\_repo' + \\
+\Verb+ hint: Updates were rejected because the remote contains work that you do + \\
+\Verb+ hint: not have locally. This is usually caused by another repository pushing + \\
+\Verb+ hint: to the same ref. You may want to first integrate the remote changes + \\
+\Verb+ hint: (e.g., 'git pull ...') before pushing again. + \\
+\Verb+ hint: See the 'Note about fast-forwards' in 'git push {-}{-}help' for details. +}
+\end{tcolorbox}
+
+
+\Verb+git branch + \\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+  main + 
+}
+\end{tcolorbox}
+\begin{itemize}
+\item create a new branch
+\end{itemize}
+\Verb+git checkout -b sj\_branch +\\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+Switched to a new branch 'sj\_branch' +
+}
+\end{tcolorbox}
+
+
+\Verb+git branch + \\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.2pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+ main + \\
+\Verb+$*$sj\_branch +
+}
+\end{tcolorbox}
+
+\end{frame}
+%=============================================================================================
+\begin{frame}{\insertsectionnumber{ |} Version Control | git - branch}
+
+
+\begin{itemize}
+\item check new branch
+\end{itemize}
+
+\Verb+git status; echo; ls +\\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+On branch sj\_branch + \\
+\Verb+nothing to commit, working tree clean + \\
+\Verb+ +\\
+\Verb+sj\_script.txt +
+}
+\end{tcolorbox}
+
+%
+%\Verb+ls +\\
+%\begin{tcolorbox}[width=11cm,
+%    fontupper=\normalsize,drop fuzzy shadow southwest,
+%    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+%\footnotesize{
+%\Verb+ sj\_script.txt + 
+%}
+%\end{tcolorbox}
+
+
+\begin{itemize}
+\item add the new branch to the remote repository
+\end{itemize}
+
+\Verb+ git push -u origin sj\_branch + \\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+branch + \\
+\Verb+Counting objects: 12, done.+ \\
+\Verb+Delta compression using up to 8 threads.+ \\
+\Verb+Compressing objects: 100\% (9/9), done.+ \\
+\Verb+Writing objects: 100\% (12/12), 1.40 KiB | 1.40 MiB/s, done.+ \\
+\Verb+Total 12 (delta 3), reused 0 (delta 0)+ \\
+\Verb+remote: Resolving deltas: 100\% (3/3), done.+ \\
+\Verb+remote: + \\
+\Verb+remote: Create a pull request for 'sj\_branch' on GitHub by visiting:+ \\
+\Verb+remote:      https://github.com/sj-science/WinterSchool\_train\_repo/pull/new/sj\_branch+ \\
+\Verb+remote: + \\
+\Verb+To https://github.com/sj-science/WinterSchool\_train\_repo.git+ \\
+\Verb+ $*$ [new branch]      sj\_branch -> sj\_branch+ \\
+\Verb+Branch 'sj\_branch' set up to track remote branch 'sj\_branch' from 'origin'.+ 
+}
+\end{tcolorbox}
+
+\end{frame}
+%=============================================================================================
+\begin{frame}{\insertsectionnumber{ |} Version Control | git - branch}
+
+
+\Verb+git status +\\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+On branch sj\_branch +\\
+\Verb+Your branch is up to date with 'origin/sj\_branch'. +\\
+\Verb+ +\\
+\Verb+nothing to commit, working tree clean +
+}
+\end{tcolorbox}
+
+\begin{itemize}
+\item your colleague can now see and access (checkout) your new branch
+\end{itemize}
+
+\Verb+git fetch +\\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+remote: Enumerating objects: 3, done. +\\
+\Verb+remote: Counting objects: 100\% (3/3), done. +\\
+\Verb+remote: Compressing objects: 100\% (2/2), done. +\\
+\Verb+remote: Total 2 (delta 1), reused 1 (delta 0), pack-reused 0 +\\
+\Verb+Unpacking objects: 100\% (2/2), done. +\\
+\Verb+From https://github.com/sj-science/WinterSchool\_train\_repo +\\
+\Verb+ $*$ [new branch]      sj\_branch  -> origin/sj\_branch +
+}
+\end{tcolorbox}
+
+\Verb+git branch -r +\\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+origin/HEAD -> origin/main +\\
+\Verb+origin/main +\\
+\Verb+origin/sj\_branch +
+\Verb+ +
+}
+\end{tcolorbox}
+
+\end{frame}
+%=============================================================================================
+\begin{frame}{\insertsectionnumber{ |} Version Control | git checkout}
+
+\Verb+git checkout sj\_branch +\\
+\begin{tcolorbox}[width=11cm,
+    fontupper=\normalsize,drop fuzzy shadow southwest,
+    boxrule=0.4pt,sharp corners,colframe=yellow!80!black,colback=yellow!10]
+\footnotesize{
+\Verb+sj\_branch +\\
+\Verb+Switched to branch 'sj\_branch' +\\
+\Verb+Your branch is up to date with 'origin/sj\_branch'.  + 
+}
+\end{tcolorbox}
+%
+\vspace{1cm}
+
+\begin{itemize}
+\item Create and switch to your own branch "your\_initials\_branch"
+\item Create another bash script with a message to your colleagues.
+\item Commit this file to the new branch
+\item Push the branch to track its remote counterpart
+\item Checkout one of your colleagues new branches and find out their message to you.
+\end{itemize}
+
 \end{frame}
 %=============================================================================================
 \begin{frame}{\insertsectionnumber{ |} Version Control | Alternatives}
@@ -727,7 +1007,7 @@ its main strength is its easy branching and merging capability
 \item hosting providers for git repositories \textbf{GitHub, GitLab, azure, Bitbucket} and others 
 
 \item \textbf{svn} is a git alternative that follows a centralized model
-\item using git as a simple backup and versioning tool is slightly overkill considering its powerful features
+\item using git as a simple backup tool is slightly overkill considering its powerful features
  \\
 \item \textbf{onedrive} is a commercial cloud service (1TB included in VUW and NIWA accounts) \\
 \begin{itemize}
@@ -784,10 +1064,13 @@ its main strength is its easy branching and merging capability
 \item[\textbullet] does \textbf{NOT} contain spaces
 \item[\textbullet] leaves the file extension as is
 \end{itemize}
+\item example \\
+023\_bry\_ACOSM\_9km24\_V02.nc \\
+article\_draft\_v12\_sj1.docx \\
+RSSM\_84Bg2bT3\_4avg\_abs\_2118\_fig1\_Dec\_Jan\_966.png \\
 \end{itemize}
 %
 %\vspace{2cm}
-To  be  continued.
 \end{frame}
 
 %%=============================================================================================
