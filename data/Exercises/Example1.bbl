@@ -1,0 +1,21 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Golledge et~al.(2021)Golledge, Keller, and
+  Jendersie]{Golledge2021Methodology}
+Nicholas Golledge, Liz Keller, and Stefan Jendersie.
+\newblock A methodology for the study of climate models.
+\newblock In \emph{Proceedings of Climate}, June 2021.
+
+\bibitem[Jacobson(1999)]{Jacobson1999Towards}
+Van Jacobson.
+\newblock Towards the analysis of massive multiplayer online role-playing
+  games.
+\newblock \emph{Journal of Ubiquitous Information}, 6:\penalty0 75--83, June
+  1999.
+
+\end{thebibliography}
