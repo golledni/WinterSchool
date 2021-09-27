@@ -15,11 +15,6 @@
 %	PACKAGES AND THEMES
 %----------------------------------------------------------------------------------------
 
-\documentclass{beamer}
-\usepackage{xcolor}
-%\usepackage{fancybox}
-\pagestyle{empty}
-\mode<presentation> {
 
 % The Beamer class comes with a number of default slide themes
 % which change the colors and layouts of slides. Below this is a list
@@ -42,7 +37,7 @@
 %\usetheme{Ilmenau}
 %\usetheme{JuanLesPins}
 %\usetheme{Luebeck}
-\usetheme{Madrid}
+%\usetheme{Madrid}
 %\usetheme{Malmoe}
 %\usetheme{Marburg}
 %\usetheme{Montpellier}
@@ -64,7 +59,7 @@
 %\usecolortheme{dolphin}
 %\usecolortheme{dove}
 %\usecolortheme{fly}
-\usecolortheme{lily}
+%\usecolortheme{lily}
 %\usecolortheme{orchid}
 %\usecolortheme{rose}
 %\usecolortheme{seagull}
@@ -76,59 +71,12 @@
 %\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
 
 %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
-}
-\usepackage{xcolor,verbatimbox}
-\usepackage{fancyvrb}
-\usepackage{verbatim}
-\usepackage{verbatimbox}
-\usepackage{verbdef}
-\usepackage{graphicx} % Allows including images
-\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-\usepackage{amsmath,keyval}
-\usepackage{lipsum} % just for the example
-\usepackage{framed}
-\usepackage[framemethod=TikZ]{mdframed}
 
-\catcode`>=\active %
-\catcode`<=\active %
-\def\openesc{\color{blue}}
-\def\closeesc{\color{black}}
-\def\vbdelim{\catcode`<=\active\catcode`>=\active%
-\def<{\openesc}
-\def>{\closeesc}}
-\catcode`>=12 %
-\catcode`<=12 
-
-
-\makeatletter
-\define@key{SBS}{left}{\def\SBS@left{#1}}
-\define@key{SBS}{align}{\def\SBS@align{#1}}
-\def\SBS@left{0.5}
-\def\SBS@align{c}
-
-\newlength{\sbswidth}
-\newenvironment{sidebysideeq}[1][]
- {\[% start equation
-  \setkeys{SBS}{#1}%
-  \setlength{\sbswidth}{\SBS@left\linewidth}%
-  \minipage[\SBS@align]{\sbswidth}
-  \centering
-  $\!\aligned[\SBS@align]
- }
- {\endaligned$\endminipage\]}
-\newcommand{\breaksideeq}{%
-  \endaligned$\endminipage
-  \setlength{\sbswidth}{\dimexpr\linewidth-\sbswidth}%
-  \minipage[\SBS@align]{\sbswidth}
-  \centering
-  $\!\aligned[\SBS@align]
-}
-\makeatother
 
 %%----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
-
+\begin{frame}
 \title[Introduction to \LaTeX]{Introduction to \LaTeX} % The short title appears at the bottom of every slide, the full title is only on the title page
 \subtitle{Winter School Modelling Hub 2021}
 %\author{Winter School Modelling Hub 2021} % Your name
@@ -142,8 +90,7 @@
 %\logo{
 %\includegraphics[width=6cm]{figures/overleaf_logo.png}}
 \date{} % Date, can be changed to a custom date
-
-\begin{document}
+\end{frame}
 
 \begin{frame}
 \titlepage % Print the title page as the first slide
@@ -885,4 +832,3 @@ Note that most journal's \LaTeX{} template will also come with a '.sty' file, wh
 
 %----------------------------------------------------------------------------------------
 
-\end{document} 

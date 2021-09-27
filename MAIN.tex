@@ -54,6 +54,22 @@
 \usepackage{listings}
 \usepackage{hyperref}
 %\lstset{language=bash}
+\usepackage{xcolor,verbatimbox}
+\usepackage{verbatimbox}
+\usepackage{verbdef}
+\usepackage{lipsum} % just for the example
+\usepackage{framed}
+\usepackage[framemethod=TikZ]{mdframed}
+
+\catcode`>=\active %
+\catcode`<=\active %
+\def\openesc{\color{blue}}
+\def\closeesc{\color{black}}
+\def\vbdelim{\catcode`<=\active\catcode`>=\active%
+\def<{\openesc}
+\def>{\closeesc}}
+\catcode`>=12 %
+\catcode`<=12 
 
 %%%%%%%%%%%%%%%%%%%%%%%% SET UP TITLE / AUTHORS ETC %%%%%%%%%%%%%%%%%%%%%%
 
