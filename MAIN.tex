@@ -45,13 +45,13 @@
 \usepackage{setspace}
 \usepackage{media9}
 %\usepackage{movie15}
-\usepackage{pdfpages}
 \usepackage{animate}
 \usepackage{ifthen}
 \usepackage{graphicx}
 \usepackage{verbatim}
 \usepackage{fancyvrb}
 \usepackage{listings}
+\usepackage{pdfpages}
 \usepackage{hyperref}
 %\lstset{language=bash}
 %\usepackage{xcolor,verbatimbox}
@@ -155,7 +155,7 @@ Stefan~Jendersie\inst{1}\\
 \newcommand{\movies}{off}
 
 
-\setbeamercolor{background canvas}{bg=white}
+%\setbeamercolor{background canvas}{bg=white}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% SET BACKGROUND FOR TITLE SLIDE %%%%%%%%%%%%%%%%%%%%%%
@@ -179,7 +179,12 @@ Stefan~Jendersie\inst{1}\\
 
 \include{INTRO}
 \include{PROGRAMMING}
+\section{Climate modelling}
+%\nopagecolor
+%\includepdf[pages=1]{climate-model-lecture.pdf}
 \include{PLOTS}
+\section{Latex}
+%\includepdf[pages=-]{LATEX.pdf}
 \include{WORKSTRUCTURE}
 
 

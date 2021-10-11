@@ -1,4 +1,8 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Intro}{2}{0}{1}
-\beamer@sectionintoc {2}{Introduction to programming}{4}{0}{2}
+\beamer@sectionintoc {2}{Introduction to programming}{7}{0}{2}
+\beamer@sectionintoc {4}{Analysis and plotting of spatial data}{22}{0}{4}
+\beamer@sectionintoc {3}{Climate modelling}{22}{0}{3}
+\beamer@sectionintoc {6}{Work Structure /& Version Control}{108}{0}{6}
+\beamer@sectionintoc {5}{Latex}{108}{0}{5}
