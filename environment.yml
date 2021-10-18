@@ -4,6 +4,7 @@ channels:
 dependencies:
   - conda-forge::cartopy=0.20.1
   - conda-forge::cdo=1.9.10
+  - conda-forge::imageio=2.9.0
   - conda-forge::matplotlib=3.4.3
   - conda-forge::ncview=2.1.8
   - conda-forge::netcdf4=1.5.7
